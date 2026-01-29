@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "63c5f6aa-b871-4ff8-9cf3-1a8a9f7ceb74")
+	(paper "A4")
+	(lib_symbols)
+	(text "[ ] Chip antenna (TBD part) \n[ ] Passive matching network (leave notes in schematic) \n[ ] Ground stiching and keepout notes in schematic "
+		(exclude_from_sim no)
+		(at 115.316 93.726 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ae4283b1-bd0a-4d25-a439-bade0f6d0cab")
+	)
+)

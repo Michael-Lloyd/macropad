@@ -1,0 +1,14 @@
+# KiCad specific
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.net
+*.sch-bak
+fp-info-cache
+# Fabrication files
+/fab/
+# Proprietary libraries
+/lib/sym/
+/lib/mdl/
+# Backups
+/macropad-backups/

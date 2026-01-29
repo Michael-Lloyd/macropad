@@ -1,0 +1,224 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "82914206-8460-41c9-94b4-a459dd1bcf9d")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 101.6 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "63716c42-00fe-496f-ad21-48b26934ebc3")
+		(property "Sheetname" "Power and Battery Management"
+			(at 101.6 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "./sch/bat_mgmt.kicad_sch"
+			(at 101.6 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "macropad"
+				(path "/82914206-8460-41c9-94b4-a459dd1bcf9d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "72818cf6-3825-4731-adbe-89aac09c564d")
+		(property "Sheetname" "USB Interface"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "./sch/usb_fs_ifx.kicad_sch"
+			(at 25.4 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "macropad"
+				(path "/82914206-8460-41c9-94b4-a459dd1bcf9d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8274de8b-eb3a-4ec7-9a0b-98ce90a943a4")
+		(property "Sheetname" "Controller"
+			(at 63.5 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "./sch/mcu.kicad_sch"
+			(at 63.5 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "macropad"
+				(path "/82914206-8460-41c9-94b4-a459dd1bcf9d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 63.5)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9d42d7fc-b77c-4a93-a28f-e89f9cc85a6b")
+		(property "Sheetname" "Macropad keys"
+			(at 25.4 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "./sch/macropad_sw.kicad_sch"
+			(at 25.4 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "macropad"
+				(path "/82914206-8460-41c9-94b4-a459dd1bcf9d"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 63.5)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e933b57b-5025-490c-8d28-ffbdf9de626d")
+		(property "Sheetname" "Etc (LEDs, Buttons, SWD)"
+			(at 63.5 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "./sch/etc.kicad_sch"
+			(at 63.5 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "macropad"
+				(path "/82914206-8460-41c9-94b4-a459dd1bcf9d"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
